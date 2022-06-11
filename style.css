@@ -1,0 +1,162 @@
+header{
+    background: linear-gradient(to right,#e6a6c6,#ebc2d5,#d483ac);
+    overflow: auto;
+    margin: 20px;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.logo{
+    display: flex;
+    float:left;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+hr{
+    border:2px solid black
+}
+header p{
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to right,#e6a6c6,#ebc2d5,#d483ac);
+}
+main h1{
+    text-align: center;
+}
+main p{
+    font-size: 25px;
+}
+.start{
+    width:40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
+.chairperson{
+    width:40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    background: white;
+}
+.start img{
+    float:left;
+}
+.chairperson img{
+    float:left;
+}
+
+.reservation{
+    background: linear-gradient(to right,lightgrey,grey);
+    width:300px;
+    height:550px;
+    padding:50px ;
+    margin: 60px;
+    float:left;
+    border-radius: 20px;
+}
+.reservation:hover{
+    background: lightgrey;
+    color:black;
+}
+input[type="text"]{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background: white;   
+}
+input[type="text"]:focus{
+    background: lightgrey; 
+}
+.but{
+    width:30%;
+    padding: 2px;
+    background: white;
+    font-size:20px;
+    font-family: cursive;
+    margin: 5px;
+    margin-left: 100px;
+}
+.but:hover{
+    background: lightgrey; 
+
+}
+.reservation h2{
+    text-align: center;
+    font-family: cursive;
+}
+.reservation p{
+    text-align: center;
+    font-family: cursive;
+}
+.gallary{
+    position: relative;
+     padding-left: 100px;
+     padding: 10px;
+     border: 4px solid black;
+     border-radius: 20px;
+     padding-top: 200px;
+     overflow: auto;
+     overflow-x: auto;
+ }
+ main2 h3{
+     text-align: center;
+     font-family: sans-serif;
+     color: black;
+ }
+ 
+ .gallary li{
+     display:inline-block;  
+ }
+ 
+ .small{
+    width:250px;
+    height:200px;
+ }
+ 
+ .big{
+     display:none;
+     width:400px;
+     height:200px;
+     position:absolute;
+     top:20px;
+ }
+ 
+ .gallary li:hover img{
+     display:inline-flex;
+     background:linear-gradient(to right,lightgrey,grey) ;
+ }
+ .but2{
+    width:50%;
+    padding: 50px;
+    background:linear-gradient(to right,hotpink,white,hotpink);
+    font-size:20px;
+    font-family: cursive;
+    margin: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.but2:hover{
+    background:linear-gradient(to right,lightgrey,grey) ; ;
+    transition-duration: 1s
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
